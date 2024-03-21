@@ -1,0 +1,69 @@
+frame-8{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.time-to-travel {
+  margin: 0;
+  height: 355px;
+  width: 615px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7275b7;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.frame-child3,
+.frame-child3 {
+  top: 50px;
+  left: 565.2px;
+  width: 117px;
+  height: 34px;
+  object-fit: contain;
+}
+.row-parent {
+  width: 786px;
+  height: 176px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.page8 {
+  width: 100%;
+  height: 3347px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 186px 2919px;
+  box-sizing: border-box;
+  gap: 2751px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 100px;
+  color: var(--color-black);
+  font-family: var(--font-lusitana);
+}

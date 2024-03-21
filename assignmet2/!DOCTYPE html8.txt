@@ -1,0 +1,63 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./frame-10.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Londrina Solid:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Londrina Shadow:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jacques Francois:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Linden Hill:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page8">
+      <img
+        class="travel-agency-preview-1-icon"
+        alt=""
+        src="./public/travelagencypreview-1@2x.png"
+      />
+
+      <header class="page8-inner">
+        <div class="rectangle-parent1">
+          <div class="frame-child2"></div>
+          <h3 class="time-to-travel">Time to travel</h3>
+        </div>
+      </header>
+      <div class="row-parent">
+        <div class="row" id="row"></div>
+        <div class="previous">previous</div>
+        <img
+          class="frame-child3"
+          loading="lazy"
+          alt=""
+          src="./public/arrow-4.svg"
+        />
+      </div>
+    </div>
+
+    <script>
+      var row = document.getElementById("row");
+      if (row) {
+        row.addEventListener("click", function (e) {

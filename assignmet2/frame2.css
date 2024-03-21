@@ -1,0 +1,52 @@
+frame1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #484379, #737373);
+  width: 190px;
+}
+.login {
+  height: 29px;
+  width: 193px;
+  display: inline-block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+}
+.password1 {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.login1 {
+  position: absolute;
+  top: 0;
+  left: 89px;
+  display: inline-block;
+  width: 55px;
+  height: 14px;
+  min-width: 55px;
+  z-index: 1;
+}
+.forgotpassword {
+  height: 14px;
+  width: 124px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+  cursor: pointer;
+}
+.have-not-created {
+  height: 19px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
